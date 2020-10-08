@@ -1,0 +1,16 @@
+{
+    "clangd.semanticHighlighting": true,
+      "languageserver": {
+        "elmLS": {
+          "command": "elm-language-server",
+          "filetypes": ["elm"],
+          "rootPatterns": ["elm.json"],
+          "initializationOptions": {
+            "elmAnalyseTrigger": "change",
+            "elmFormatPath": "elm-format", 
+            "elmTestPath": "elm-test"
+          }
+        }
+      },
+      "codeLens.enable": true
+}
